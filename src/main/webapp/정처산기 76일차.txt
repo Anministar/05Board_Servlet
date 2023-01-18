@@ -1,0 +1,20 @@
+++Grade 값을 MySQL Workbench로 입력함.
+
+admin@naver.com	$2a$10$1cjH4.VxbagXGctn5crzzulH6q4wtv8EF/Kx.HPh540p9AMn/PvwK	1	1	1	1	2
+anon@naver.com	$2a$10$FNGc46tTkaItR3qA01peEuqjqMlnzBs9cgxKQiba1l67tFVyt7cUy	1	1	1	1	0
+user@naver.com	$2a$10$Hn/buYidW1yWlVLCXicHcuvMFBwLmRNKwwLkwxX8cspPNVnB79iMW	1	1	1	1	1
+
+이렇게 아 mysql에 넣을 예정.
+
+++ 부트스트랩 5 컴포넌트의 페이지네이션에 보면 사용할 수 있는 것들 있음
+그 페이지에 여러 페이지 번호 있고 클릭하면서 다음 페이지로 넘길 수 있는 것들.
+EX) 1 2 3 4 5 6 7 8 9 ...
+
+
+++실행이 안되거나 Post1000파일이 실행이 안되면 Project의 Properties에 들어가서 경로 타고 가면 .project 파일에 제목(이름)이 05Board가 안되어있거나 .setting에 네번째 파일(org.eclipse.wst.common.component)에 들어가서 deploy-name 부분 부터 전부 05Board로 바꾸면 됨.
+
+
+++JSTL 웹브라우져 검색
+<% @taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+JSTL은 라이브러리이기 때문에 사용하기 전에 core를 header에 추가해주어야 한다.
+선생님은 /jstl앞에 /jsp도 넣어줬음.
