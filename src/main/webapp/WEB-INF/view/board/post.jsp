@@ -107,7 +107,7 @@ section {
 		<h1>자유게시판</h1>
 		<p></p>
 
-		<form action="${pageContext.request.contextPath }/board/post.do" method="post" >
+		<form action="${pageContext.request.contextPath }/board/post.do" method="post" enctype="multipart/form-data">
 			<!-- enctype="multipart/form-data" ==> 파일을 포함한 데이터를 포멧으로 전달할 때 필요한 코드 -->
 			<table class="table w-50">
 			<tr>
@@ -126,10 +126,10 @@ section {
 				<td><textarea id="" cols="30" rows="10" name="content" class="form-contorl"></textarea></td>
 			</tr>
 			
-			<!-- <tr> 
+			<tr> 
 				<td>Files</td>
 				<td><input type="file"class="form-contorl" name="files" multiple /></td>
-			</tr> -->
+			</tr> 
 			
 			<tr>
 				<td colspan=2>

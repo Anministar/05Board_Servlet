@@ -22,6 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 		
 		)
 //FrontController 에서 multipart로 요청이 들어왔을 때를 대비한 파일관련 처리를 해야함. 노테이션(어떤 어떤 코드라고 전달하는 역할)으로 전달해야함.
+// ==> 이 서블릿은 Multipart/form-data를 받을 수 있는 서블릿이다 라는걸 알려주는 역할임.
 
 
 
